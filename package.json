@@ -10,7 +10,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@gfa-eshal/chat-widget": "^0.1.0",
+    "@gfa-eshal/chat-widget": "^0.1.1",
     "@tailwindcss/vite": "^4.2.0",
     "react": "^19.2.0",
     "react-dom": "^19.2.0",
