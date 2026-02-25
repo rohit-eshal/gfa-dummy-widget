@@ -241,37 +241,7 @@ const GFAHero = () => {
                             </div>
                         </div>
 
-                        {/* Meet the Team Section */}
-                        <h2 className="text-3xl font-bold text-blue-900 mb-8 pb-4 border-b-4 border-blue-900 w-fit mt-16">
-                            Meet the team
-                        </h2>
-
-                        <div className="space-y-12 mb-12">
-                            {[
-                                { name: 'Inke Hase', role: 'Digital Innovation Strategist', email: 'inke.hase@gfa-group.de', img: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=300&h=400&fit=crop' },
-                                { name: 'Belen Gissila', role: 'Design Thinker', email: 'belen.gissila@gfa-group.de', img: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=300&h=400&fit=crop' },
-                                { name: 'Joanne Schuiteman', role: 'Educational Scientist', email: 'joanne.schuiteman@gfa-group.de', img: 'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=300&h=400&fit=crop' },
-                                { name: 'Satya Kalepu', role: 'EdTech Specialist', email: 'satya.kalepu@gfa-group.de', img: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=300&h=400&fit=crop' },
-                                { name: 'Franziska Pfeifer', role: 'Digital Learning Strategist', email: 'franziska.pfeifer@gfa-group.de', img: 'https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=300&h=400&fit=crop' }
-                            ].map((member, idx) => (
-                                <div key={idx} className="flex gap-6">
-                                    <div className="flex-shrink-0">
-                                        <img
-                                            src={member.img}
-                                            alt={member.name}
-                                            className="w-32 h-40 object-cover rounded-lg"
-                                        />
-                                    </div>
-                                    <div className="flex-1">
-                                        <h3 className="text-lg font-bold text-gray-900 mb-2">{member.name}</h3>
-                                        <p className="text-gray-700 mb-2">{member.role}</p>
-                                        <p className="text-blue-600 hover:underline">
-                                            <a href={`mailto:${member.email}`}>E-mail: {member.email}</a>
-                                        </p>
-                                    </div>
-                                </div>
-                            ))}
-                        </div>
+                     
 
                         {/* Career Guide AI Tutor Section */}
                         <h2 className="text-3xl font-bold text-blue-900 mb-8 pb-4 border-b-4 border-blue-900 w-fit mt-16">
@@ -354,7 +324,7 @@ const GFAHero = () => {
             </section>
 
             {/* Footer */}
-            <footer className="bg-gray-100 border-t border-gray-300 mt-16">
+            <footer className="bg-gray-100 border-t border-gray-300 ">
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
                     <div className="flex flex-col md:flex-row justify-between items-center gap-8">
                         <div className="text-center md:text-left">
